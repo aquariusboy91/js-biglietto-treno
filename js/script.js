@@ -22,11 +22,11 @@ let totale = user_km * 0.21;
 console.log(totale);
 
 //sconto minorenni 
-let sconto_minorenni = tariffa_km * 20 / 100; 
+let sconto_minorenni = (totale * 20) / 100; 
 console.log(sconto_minorenni);
 
 // sconto over 65
-let sconto_over = tariffa_km * 40 / 100;
+let sconto_over = (totale * 40) / 100;
 console.log(sconto_over);
 
 //totale per minorenni 
